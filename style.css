@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto',sans-serif;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.header{
+    background-color: #635854;
+    padding-top:12px;
+    padding-bottom: 12px;
+    border-bottom: 4px solid #3596f5;
+}
+.navbar{
+    max-width: 1280px;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-menu{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    text-align: center;
+}
+.navbar-item{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.navbar-link{
+    text-decoration: none;
+    color: #fff;
+}
+.navbar-text{
+    display: block;
+    color: #fff;
+    margin:4px;
+    font-size: 14px;
+    line-height: 16px;
+}
+.navbar-contacts{
+    text-align: right;
+}
+.navbar-phone{
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+.fullmain{
+    display: flex;
+    height: 600px;
+    max-width: 1800px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.jk, .text{
+    flex: 1;                
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fullmain img{
+    margin-bottom: 50px;
+}
+.fullmain img:first-child {
+  margin-left: 0;          
+}
+.fullmain img:last-child {
+  margin-right: 0;         
+}
+.footer {
+    background-color: #d7d7d7;          
+    border-top: 4px solid #3596f5;
+    padding: 40px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1920px;                  
+    margin: 60px auto 0 auto;           
+}
+.footer-menu{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+}
+.footer-item{
+    margin-left: 40px;
+}
+.footer-link{
+    text-decoration: none;
+    color: white;
+}
+.footer-text{
+    display: block;
+    color: white;
+    margin-bottom: 4px;
+    font-size: 14px;
+    line-height: 16px;
+}
+.footer-contacts{
+    text-align: left;
+}
+.footer-phone{
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration: none;
+    color: white;
+}
+.icon{
+    width: 35px;
+    margin-right: 20px;
+}
+.footer-logo2{
+    width: 65px;
+}
+.left{
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    gap: 40px;
+}
+.text{
+    text-transform: uppercase;
+    color: gray;
+}
+.button{
+    background-color: #3596f5;
+    border-radius: 5px;
+    border: 0;
+    padding: 12px 24px;
+}
+.button:hover {
+  background-color: #2b7ad0;
+}
